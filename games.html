@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <script src = "index.js"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Projects</title>
+    </head>
+    <body id = "games" style="background-color: rgb(34, 170, 161);" onload = "initblur()">
+        <div id = "header" style = "background-color: rgb(4, 27, 21); border-bottom: groove; border-color: rgb(76, 224, 210);">
+            <ol>
+                <li class = "a-games" id = "home"><a href="index.html">Home</a></li>
+                <li><a class = "a-games" href = "games.html">Games</a></li>
+                <li><a class = "a-games" href = "music.html">Music</a></li>
+                <li><a class= "a-games" href = "projects.html">Projects</a></li>
+            </ol>
+        </div>
+
+        <div class = "preview" style = "border-radius: 0;">
+            <h2 style = "color: white;">My Favorite Games</h2>
+        </div>
+        <hr class = "invis-hr">
+        <div class = "img-p preview" onmouseover = "blurimg(0)" onmouseout = "blurring(0)">
+            <a href="https://store.steampowered.com/app/303210/The_Beginners_Guide/"><img alt = "cover art" class = "intro" src = "https://cdn.akamai.steamstatic.com/steam/apps/303210/ss_051b1a6ffae5c8d41bee9bc85e3aa6178ff8d548.1920x1080.jpg"></a>
+            <div class = "intro">
+                <h3>The Beginner's Guide</h3>
+                <p class = "game-desc">Take a journey through the mind of an introspective game developer through his creations, and discover the impact of validation, security, and fulfillment.</p>
+            </div>
+        </div>
+        <hr class = "invis-hr">
+        <div class = "img-p preview" onmouseover = "blurimg(1)" onmouseout = "blurring(1)">
+            <a href="https://www.playstation.com/en-us/games/detroit-become-human/"><img alt = "cover art" class = "intro" src = "https://image.api.playstation.com/vulcan/img/rnd/202010/2119/c3hgHQY7DOMTzQX52O2PKq7i.jpg"></a>
+            <div class = "intro">
+                <h3>Detroit: Become Human</h3>
+                <p class = "game-desc">In a futuristic earth, androids are critical to a functioning society. In this gorgeous game, see the world from the perspective of the androids - simultaneously adored and despised.</p>
+            </div>
+        </div>
+        <hr class = "invis-hr">
+        <div class = "img-p preview" onmouseover = "blurimg(2)" onmouseout = "blurring(2)">
+            <a href="https://store.steampowered.com/app/414700/Outlast_2/"><img alt = "cover art" class = "intro" src = "https://images.gog-statics.com/409993ae05dfa48caa30943b3d2f97cd0f462e0da9fca81edff85cc6a957fe3d_product_card_v2_mobile_slider_639.jpg"></a>
+            <div class = "intro">
+               <h3>Outlast 2</h3>
+               <p class = "game-desc">Get trapped in your darkest nightmare, a cultic outpost with corpses and satanic imagery at every exhausting turn.</p>
+           </div>
+        </div>
+        <hr class = "invis-hr">
+        <div class = "img-p preview" onmouseover = "blurimg(3)" onmouseout = "blurring(3)">
+            <a href="https://presentable-liberty.en.softonic.com/"><img alt = "cover art" class = "intro" src = "https://i.redd.it/zzhlgy8yjjw41.png"></a>
+            <div class = "intro">
+                <h3>Presentable Liberty</h3>
+                <p class = "game-desc">What if prison was the safest place to be? In this indie game, try and survive your prison sentence as disease ravages the outside world.</p>
+            </div>
+        </div>
+        <hr class = "invis-hr">
+        <div class = "img-p preview" onmouseover = "blurimg(4)" onmouseout = "blurring(4)">
+            <a href="https://store.steampowered.com/agecheck/app/319630/"><img alt = "cover art" class = "intro" src = "https://miro.medium.com/max/3840/1*Kg8ytB4mxSscR2zdCofWJg.jpeg"></a>
+            <div class = "intro">
+                <h3>Life is Strange</h3>
+                <p class = "game-desc">A teenager in a small town is suddenly bestowed with the power to rewind time. But her powers only go so far as space and time wreak havoc on those she loves.</p>
+            </div>
+        </div>
+        <hr class = "invis-hr">
+        <div class = "img-p preview" onmouseover = "blurimg(5)" onmouseout = "blurring(5)">
+            <a href="https://store.steampowered.com/app/860510/Little_Nightmares_II/"><img alt = "cover art" class = "intro" src = "https://static.bandainamcoent.eu/high/little-nightmares/little-nightmares-2/00-page-setup/ln2_game-thumbnail.jpg"></a>
+            <div class = "intro">
+                <h3>Little Nightmares II</h3>
+                <p class = "game-desc">Try and escape an onslaught of bloated and lurching villains as a tiny child in a blue and glitchy hellscape.</p>
+            </div>
+        </div>
+        <hr class = "invis-hr">
+        <div class = "img-p preview" onmouseover = "blurimg(6)" onmouseout = "blurring(6)">
+            <a href="https://ddlc.moe/"><img alt = "cover art" class = "intro" src = "https://cdn.akamai.steamstatic.com/steam/apps/1388880/capsule_616x353.jpg"></a>
+            <div class = "intro">
+                <h3>Doki Doki Literature Club</h3>
+                <p class = "game-desc">Reading will not always keep you out of trouble. Hidden beneath the guise of an anime graphic novel, psychological horror awaits those who join the Literature Club.</p>
+            </div>
+        </div>
+        <hr class = "invis-hr">
+        <div class = "img-p preview" onmouseover = "blurimg(7)" onmouseout = "blurring(7)">
+            <a href="https://store.steampowered.com/app/239030/Papers_Please/"><img alt = "cover art" class = "intro" src = "https://cdn.vox-cdn.com/thumbor/dxn0jkd_PUdPOwVkZr3tK5AasDo=/0x0:1095x616/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/44323486/steamworkshop_webupload_previewfile_138290904_preview.0.png"></a>
+            <div class = "intro">
+                <h3>Papers, Please</h3>
+                <p class = "game-desc">Take on the role of a border agent in Cold War Arstotzka, fending off desperate relatives, secret agents, and insurgents to decide the fate of your family.</p>
+            </div>
+        </div>
+        <hr class = "invis-hr">
+        <div class = "img-p preview" onmouseover = "blurimg(8)" onmouseout = "blurring(8)">
+            <a href="https://joeydrewstudios.com/batim"><img alt = "cover art" class = "intro" src = "https://cdn.akamai.steamstatic.com/steam/apps/622650/capsule_616x353.jpg"></a>
+            <div class = "intro">
+                <h3>Bendy and the Ink Machine</h3>
+                <p class = "game-desc">Old Disney cartoons always did have an odd, darker side to them. Composed of thick, black ink, Bendy and his cohorts are in pursuit of new prey.</p>
+            </div>
+        </div>
+        <hr class = "invis-hr">
+        <div class = "img-p preview" onmouseover = "blurimg(9)" onmouseout = "blurring(9)">
+            <a href="https://store.steampowered.com/app/391720/Layers_of_Fear/"><img alt = "cover art" class = "intro" src = "https://i.ytimg.com/vi/kzNfqSGAkcA/maxresdefault.jpg"></a>
+            <div class = "intro">
+                <h3>Layers of Fear 1</h3>
+                <p class = "game-desc">An old, crippled artist has greater ailments then his leg. As he hobbles around his house, his paintings come alive - exploding in still-life apples and very real blood.</p>
+            </div>
+        </div>
+        <hr class = "invis-hr">
+    </body>
+</html>

@@ -1,0 +1,166 @@
+/* https://coolors.co/020202-be7c4d-0b6e4f-aec5eb-5f5aa2
+https://coolors.co/be6e46-413f54-5f5aa2-dabfff-3f4045
+*/
+li{
+    padding: 20px;
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+}
+#home {
+    float: left;
+}
+#header {
+    background-color: rgb(11, 110, 79);
+    border-bottom: groove;
+    border-color: rgb(2, 2, 2);
+    width: 100%;
+    font-size: 18px;
+}
+body {
+    background-color: rgb(174, 197, 235);
+    text-align: center;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(174, 197, 235);
+}
+a {
+    color: rgb(174, 197, 235);
+}
+.intro {
+    width: 400px;
+    padding: 25px;
+    text-align: center;
+    overflow: auto;
+    font-size: 24px;
+}
+#intro {
+    width: 400px;
+    padding: 25px;
+    text-align: center;
+    overflow: auto;
+    font-size: 24px;
+}
+div {
+    overflow: hidden;
+}
+#img-p {
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.img-p {
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+hr {
+    width: 80vw;
+    height: 5px;
+    border-radius: 5px;
+    background-color: #020202;
+}
+.preview {
+    background-color: rgb(19, 111, 99);
+    color: rgb(4, 27, 21);
+    padding: 15px;
+    border-radius: 50px;
+}
+.invis-hr {
+    width: 0;
+}
+.a-games a:hover {
+    color: rgb(34, 170, 161);
+}
+.a-games a:visited {
+    color: rgb(34, 170, 161);
+}
+.a-games {
+    color: rgb(34, 170, 161);
+}
+.game-desc {
+    font-size: 16px;
+    text-align: left;
+}
+.intro h3 {
+    text-align: left;
+}
+/*transition https://tympanus.net/codrops/2011/10/19/blur-menu-with-css3-transitions/*/
+#games .img-p {
+	color: transparent;
+	text-shadow: 0px 0px 6px #fff;
+	letter-spacing: 1px;
+	-moz-transform: scale(0.85);
+	-ms-transform: scale(0.85);
+	-o-transform: scale(0.85);
+	-webkit-transform: scale(0.85);
+	transform: scale(0.85);
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+#games .img-p:hover {
+    text-shadow: 0px 0px 1px #fff;
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+/*https://www.geeksforgeeks.org/programming-a-slideshow-with-html-and-css/*/
+#slideshow {
+    overflow: hidden;
+    height: 440px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 15px;
+    color: rgb(169, 228, 239);
+    text-align: center;
+}
+.slide {
+    float: left;
+    height: 4400px;
+    width: 400px;
+}
+.slide-wrapper {
+  /* Calculate the total width on the
+  basis of number of slides */
+    width: calc(400px * 5);
+    animation: slide 20s ease infinite;
+}
+@keyframes slide {
+  /* Calculate the margin-left for
+  each of the slides */
+    15% {
+        margin-left: 0px;
+    }
+
+    30% {
+        margin-left: calc(-400px * 1);
+    }
+
+    45% {
+        margin-left: calc(-400px * 2);
+    }
+
+    60% {
+        margin-left: calc(-400px * 3);
+    }
+    75% {
+        margin-left: calc(-400px * 4);
+    }
+}
